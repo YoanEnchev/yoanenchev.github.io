@@ -237,6 +237,12 @@ footer section img {
     border-radius: 50%;
 }
 
+footer a {
+    display: inline-block;
+    color: white;
+    margin-right: 20px;
+}
+
 footer section.first {
     background: rgba(0, 0, 255, 0.4);
     padding: 30px 10px;
@@ -247,8 +253,6 @@ footer section.second {
     background: rgba(93, 63, 182, 0.4);
     padding: 30px 10px;
     margin-bottom: 20px;
-    margin-right: 3%;
-    margin-left: 3%;
 }
 
 footer section.third {
@@ -266,17 +270,20 @@ footer div.chech-out {
 footer section.first:hover {
     background: rgba(0, 0, 255, 0.7);
     cursor: pointer;
+    color: white;
 }
+
 
 footer section.second:hover {
     background: rgba(93, 63, 182, 0.7);
     cursor: pointer;
+    color: white;
 }
-
 
 footer section.third:hover {
     background: rgba(39, 131, 197, 0.7);
     cursor: pointer;
+    color: white;
 }
 
 body article:nth-child(1):hover {

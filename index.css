@@ -80,13 +80,13 @@ div.characteristic {
 }
 
 section.articles {
-    background: black;
     background-size: cover;
     height: 1000px;
     color: white;
     position: relative;
     top: -70px;
     margin-bottom: -70px;
+    background-image: url(images/artciles.jpg);
 }
 
 ol {
