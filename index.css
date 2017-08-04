@@ -60,7 +60,7 @@ ul.small {
 }
 
 header h1 {
-    font-size: 80px;
+    font-size: 100px;
     text-align: center;
     font-family: snowy, sans-serif;
     color: deepskyblue;
@@ -213,7 +213,7 @@ section.articles article.snowy-owl:hover {
     }
 
     section.articles {
-        background-image: none;
+        background-image: none;   
         color: black;
     }
 
@@ -223,5 +223,17 @@ section.articles article.snowy-owl:hover {
 
     section.articles article.polar-region {
         margin: 0;   
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.mobile-only, ol.mobile-only {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.wide-screen, ol.wide-screen {
+        display: none;
     }
 }

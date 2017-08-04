@@ -1,5 +1,7 @@
 html body {
-    background: black;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #53346D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #53346D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 header nav ul li {
@@ -33,15 +35,27 @@ ul li a {
     color: #C8C9CA;
 }
 
-body>p {
+div.intro {
     color: white;
-    text-align: center;
+    text-align: justify;
     padding: 30px;
-    background: rgba(0, 0, 255, 0.4);
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: calc(100% - 100px);
     margin: 30px auto;
     font-size: 20px;
     border-radius: 10px;
+}
+
+div.intro img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+    position: relative;
+    top: -15px;
 }
 
 body article {
@@ -63,7 +77,7 @@ body article p {
 }
 
 body article h1 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-size: 28px;
 }
 
@@ -197,6 +211,11 @@ div.comparison article{
     width: 100%;
     padding-bottom: 0px;
     font-size: 22px;
+}
+
+div.comparison article img {
+    left: 0;
+    margin-bottom: 10px;
 }
 
 body div.content>article {
