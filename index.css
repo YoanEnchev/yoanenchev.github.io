@@ -245,27 +245,3 @@ section.articles article.snowy-owl:hover {
         display: none;
     }
 }
-
-@media screen and (max-width: 1000px) {
-    body article p, button {
-        font-size: 17px !important;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    body article p, button {
-        font-size: 15px !important;
-    }
-}
-
-@media screen and (min-width: 1350px) {
-    body article p, button {
-        font-size: 17px !important;
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    body article p, button {
-        font-size: 19px !important;
-    }
-}
